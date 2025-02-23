@@ -1,32 +1,29 @@
-# Predator's Gambit - Snake Water Gun Game
+# 🐍 Predator's Gambit: Snake-Water-Gun Game
 
-A classic command-line interface (CLI) game where you face off against the computer in the timeless battle of Snake, Water, and Gun. Test your strategy and luck in this simple yet engaging terminal game!
+A Python-based twist on the classic Rock-Paper-Scissors game, where you battle the computer as **Snake**, **Water**, or **Gun**. Built with a matrix-based outcome system for efficiency.
 
-## 🎮 Rules of the Game
+![Game Demo](https://img.shields.io/badge/Status-Playable-brightgreen) 
+![Python](https://img.shields.io/badge/Python-3.x-blue)
 
-- **Snake (0)** beats Water
-- **Water (1)** beats Gun
-- **Gun (2)** beats Snake
+---
 
-If both players choose the same option, it's a draw!
+## 🎮 How It Works
+- **Choices**: Snake (`0`), Water (`1`), Gun (`2`).
+- **Outcome Matrix**: A pre-defined 3x3 matrix determines who wins instantly (no nested `if` statements!).
+- **Score System**: 
+  - `0` = Draw
+  - `1` = Computer Wins
+  - `-1` = You Win
 
-## 🕹️ How to Play
+## 🚀 Features
+- Simple CLI interface.
+- Randomized computer choice.
+- Instant outcome calculation using a matrix.
+- Clear score feedback.
 
-1. **Run the script** and enter your choice when prompted:
-   - `0` for Snake 🐍
-   - `1` for Water 🌊
-   - `2` for Gun 🔫
-2. The computer will randomly select its choice.
-3. The winner is determined based on the rules above.
+---
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Python 3.x installed on your system.
-
-### Installation & Execution
-1. Download or clone the repository.
-2. Navigate to the project directory.
-3. Run the game script:
+## 📥 Installation
+1. **Clone the repository**:
    ```bash
-   python predators_gambit.py
+   git clone https://github.com/your-username/predators-gambit.git
